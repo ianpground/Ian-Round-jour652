@@ -12,13 +12,24 @@ body {
   text-align: center;
   text-transform: lowercase;
   font-size: 3em;
+  border-style: solid;
+  border-color: #33485e;
+  min-width: 300px;
+  width: 60%;
+  border-width: 5px;
+  margin: 0 auto;
 }
 
-#contact {
-  font-size: 1em;
-  text-align: center;
-}
+
 /*headers*/
+
+.sectionheader {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+}
 
 h2{
   font-size: 1.5em;
@@ -43,4 +54,8 @@ h4{
 h5{
   font-size: 1em;
   font-weight: 400;
+}
+
+li {
+  font-size: 1em;
 }
