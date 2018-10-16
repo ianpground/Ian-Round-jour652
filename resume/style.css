@@ -37,15 +37,19 @@ body {
   background-color: black;
   font-family: georgia, serif;
   color: yellow;
-
-  border-top: 2px;
-  border-color: white;
+  border-top: 1px solid white;
+  padding-top: 10px;
 
 }
 
 .education{
 padding-left: 50px;
 
+}
+
+.circular {
+  text-align: center;
+  background-color: black;
 }
 
 
