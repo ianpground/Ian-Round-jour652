@@ -5,10 +5,11 @@ body {
     color: #d3d3d3;
     font-weight:400;
     background-color: black;
+    padding-left: 10px;
 }
 
 
-#container {
+.banner {
   width: 100%;
   border-bottom: 1px solid white;
 }
@@ -26,7 +27,7 @@ body {
   margin-left: 10px;
   margin-right: 0;
   width: 100%;
-  font-size: 2em;
+  font-size: 3em;
   text-transform: lowercase;
   background-color: black;
   font-family: georgia, serif;
@@ -39,15 +40,14 @@ a {
   color: #ffee00;
 }
 
-.button {
-  background-color: black;
-}
 
-.education{
+.education {
 padding-left: 50px;
+padding-bottom: 50px;
 
 }
 
+/*headshot*/
 .circular {
   text-align: center;
   padding-bottom: 40px;
@@ -66,6 +66,6 @@ padding-left: 50px;
 /*org*/
 
 .organization {
-  font-size: 1em;
+  font-size: 12px;
   font-weight: 400;
 }
