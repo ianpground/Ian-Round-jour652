@@ -3,20 +3,23 @@
 body {
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 12px;
-    color: #444;
+    color: #d3d3d3;
     font-weight:400;
+    background-color: black;
+}
+
+.navbar-default {
+  background-color: black;
 }
 
 #name{
-  color: #33485e;
+  color: white;
   text-align: center;
   text-transform: lowercase;
   font-size: 3em;
-  border-style: solid;
-  border-color: #33485e;
+  border-bottom: 2px solid white;
   min-width: 300px;
-  width: 60%;
-  border-width: 5px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -26,35 +29,36 @@ body {
 .sectionheader {
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   margin-right: 0;
-  width: 70%;
+  width: 100%;
   font-size: 1.5em;
-  text-transform: uppercase;
-  background-color: #33485e;
-  color: white;
+  text-transform: lowercase;
+  background-color: black;
+  font-family: georgia, serif;
+  color: yellow;
+
+  border-top: 2px;
+  border-color: white;
 
 }
+
+.education{
+padding-left: 50px;
+
+}
+
 
 /*job titles*/
 
 .jobtitle {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 600;
 }
 
 /*org*/
 
 .organization {
-  font-size: 1.25em;
-  font-weight: 400;
-}
-
-h5{
   font-size: 1em;
   font-weight: 400;
-}
-
-li {
-  font-size: 1em;
 }
