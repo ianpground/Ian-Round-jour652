@@ -3,9 +3,7 @@
 body {
     font-family: 'Open Sans', arial, sans-serif;
     color: #d3d3d3;
-    font-weight:400;
     background-color: black;
-    padding-left: 10px;
 }
 
 
@@ -54,18 +52,16 @@ padding-bottom: 50px;
   padding-top: 40px;
 }
 
-
-/*job titles*/
-
-.jobtitle {
-  font-size: 1em;
-  font-weight: 600;
-  padding-left: 50px;
+.job{
+  padding-left: 20px;
+  font-weight: bold;
 }
 
-/*org*/
+.organization{
+  padding-left: 20px;
+  font-style: italic;
+}
 
-.organization {
-  font-size: 12px;
-  font-weight: 400;
+.dates {
+  padding-left: 20px;
 }
