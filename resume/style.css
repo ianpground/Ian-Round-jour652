@@ -9,6 +9,7 @@ body {
 
 .banner {
   width: 100%;
+  height: auto;
   border-bottom: 1px solid white;
 }
 
@@ -16,6 +17,7 @@ body {
   padding-left: 150px;
   padding-right: 150px;
 }
+
 
 /*headers*/
 
@@ -25,7 +27,7 @@ body {
   margin-left: 10px;
   margin-right: 0;
   width: 100%;
-  font-size: 3em;
+  font-size: 4em;
   text-transform: lowercase;
   background-color: black;
   font-family: georgia, serif;
@@ -69,4 +71,16 @@ padding-bottom: 50px;
 .description {
   padding-left: 50px;
   padding-bottom: 50px;
+  padding-right: 100px;
+}
+
+.list {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  padding-left: 10px;
+  background-color: grey;
+  margin: 5px;
 }
