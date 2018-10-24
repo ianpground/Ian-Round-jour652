@@ -17,7 +17,7 @@
      <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
 
   <!-- Load our CSS -->
-     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="style.css">
 
   <!-- Load d3.js and c3.js -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
@@ -67,21 +67,25 @@
 
 <div id="container">
 
-  <h1>the headline goes here</h1>
+<!--headline-->
+  <h1 class="head">the headline goes here</h1>
 
-  <p>byline</p>
+<!--byline-->
+  <p class="byline">byline</p>
 
   <!--chapter headline-->
   <h2>chapter chapter</h2>
 
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+<!--div for photo, credit and cutline-->
+<div class="photo-box">
   <!--image here-->
-  <img class="photo" src="ascension.jpg">
-
+  <img class="photo" src="ascension.jpg" alt="photo">
   <!--cutline and credit-->
-  <p>credit: kenyon college</p>
-  <p>Cutline lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p class="credit">credit: kenyon college</p>
+  <p class="cutline">Cutline lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
 
 
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -94,12 +98,12 @@
 <!--container div-->
   </div>
 
+
 <!--footer-->
-<footer>
+<footer class="footer">
   <p>footer text</p>
   <p>copyright 2018 ian round</p>
 </footer>
-
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
