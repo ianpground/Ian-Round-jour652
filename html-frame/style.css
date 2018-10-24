@@ -5,3 +5,7 @@ width: 100%;
 margin: 0 auto;
 
 }
+
+.photo {
+  max-width: 500px;
+}
