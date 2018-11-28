@@ -48,12 +48,11 @@ p{
 }
 
 
-.photo {
-  max-width: 500px;
-  margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  width: 100%;
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
 }
 
 .photo-box {
@@ -67,8 +66,23 @@ p{
   font-size: 10px;
 }
 
-.cutline {
-  font-size: 12px;
+.caption {
+ width:100%;
+ max-width:900px;
+ margin:0 auto;
+ padding-bottom:30px;
+ font-family: 'Montserrat', sans-serif;
+ color:#999;
+}
+
+
+.graphic-head {
+ padding-top:60px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
 }
 
 .head {
@@ -84,7 +98,7 @@ p{
 .footer {
   background-color: black;
   text-align: center;
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   padding: 25px;
   height: 100px;
