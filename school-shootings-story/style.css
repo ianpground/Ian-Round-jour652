@@ -6,6 +6,50 @@ margin: 0 auto;
 padding: 10px;
 }
 
+
+.bg-dark {
+ background:#000 !important;
+}
+
+ul.navbar-nav {
+ margin-left:50%;
+}
+
+p{
+ text-align:left;
+ line-height:180%;
+}
+
+.navbar {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.star {
+  max-height: 15px;
+  padding-right: 5px;
+}
+
+.top {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.red {
+ color: #e0162b;
+}
+
+.blue {
+ color: #0052a5;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+
+}
+
+
 .photo {
   max-width: 500px;
   margin: 0 auto;
@@ -31,9 +75,11 @@ padding: 10px;
 
 .head {
   text-align: center;
+  font-size: 3em;
+  font-weight: 700;
 }
 
-.byline {
+.subhead {
   text-align: center;
 }
 
