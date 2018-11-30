@@ -47,6 +47,13 @@ p{
 
 }
 
+.gun {
+  text-align: center;
+}
+
+.chatter {
+  margin: 100px;
+}
 
 .stack-image {
   width:100%;
@@ -103,4 +110,11 @@ p{
   padding: 25px;
   height: 100px;
 
+}
+
+
+.sources {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
 }
