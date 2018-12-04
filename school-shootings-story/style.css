@@ -18,6 +18,9 @@ ul.navbar-nav {
 p{
  text-align:left;
  line-height:180%;
+ font-family: 'PT Serif', serif;
+ font-size: 1em;
+ color: black;
 }
 
 .navbar {
@@ -40,6 +43,21 @@ p{
  color: #0052a5;
 }
 
+a:link{
+  text-decoration: none;
+  color: #e0162b;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #0052a5;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #999
+}
+
 .hero-image {
   width: 100%;
   max-width: 900px;
@@ -53,6 +71,15 @@ p{
 
 .chatter {
   margin: 100px;
+}
+
+.intro-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .stack-image {
@@ -88,18 +115,37 @@ p{
  padding-bottom:30px;
  border-top:1px solid #cdcdcd;
  border-bottom:1px solid #cdcdcd;
- font-family: 'Montserrat', sans-serif;
  margin:0 auto;
 }
+
+.graphic-h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+
+}
+
 
 .head {
   text-align: center;
   font-size: 3em;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .subhead {
   text-align: center;
+}
+
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  width: 100%
+}
+
+.row{
+  padding-top: 20px;
 }
 
 .footer {

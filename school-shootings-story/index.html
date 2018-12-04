@@ -6,7 +6,7 @@
   <title>An American Tragedy</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Bootstrap template">
+  <meta name="description" content="An American Tragedy: Our Analysis of data from over 200 school shootings.">
   <meta name="author" content="Ian Round">
 
   <!-- Bootstrap CSS -->
@@ -22,6 +22,9 @@
   <!-- Load d3.js and c3.js -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif" rel="stylesheet">
 
 </head>
 
@@ -78,9 +81,9 @@
 
 <!--chatter-->
 <div class="chatter">
-<p>In 1999, two young men killed 12 students and wounded 24 others at Columbine High School in Littleton, Colorado. The incident sparked a long series of school shootings in the United States that has continues to this day.</p>
-<p>Not a single year has passed since 1999 without at least five school shootings in the U.S. There have been at least 214 school shootings since Columbine, according to newly released data by The Washington Post that examines school shootings at secondary and primary schools in the U.S since the Columbine shooting.</p>
-<p>With little government or academic research into the phenomenon of school shootings, the Post’s data gives an important look into the specifics of school shootings in the U.S. Below we examine this data, alongside other available data sources, for insights about school shootings, school shooters and their victims.</p>
+<p class="intro-text">In 1999, two young men killed 12 students and wounded 24 others at Columbine High School in Littleton, Colorado. The incident sparked a long series of school shootings in the United States that has continues to this day.</p>
+<p class="intro-text">Not a single year has passed since 1999 without at least five school shootings in the U.S. There have been at least 214 school shootings since Columbine, according to newly released data by The Washington Post that examines school shootings at secondary and primary schools in the U.S since the Columbine shooting.</p>
+<p class="intro-text">With little government or academic research into the phenomenon of school shootings, the Post’s data gives an important look into the specifics of school shootings in the U.S. Below we examine this data, alongside other available data sources, for insights about school shootings, school shooters and their victims.</p>
 </div>
 
 
@@ -93,14 +96,16 @@
   </div>
 
   <!--chapter-->
+  <div class="row">
+    <div class="col-md-12">
+  <img class="star" src="star-blue.png" alt="blue star image">
+  <img class="star" src="star-red.png" alt="red star image">
   <h2><a name="where">School shootings Happen all over the US.</a></h2>
   <p>At least five school school shootings have occurred every year since 1999, with an average number of 11 shootings per-year.  2006 and 2014 had the highest number of incidents with fifteen and sixteen school shootings, respectively. As can be seen the chart below, the past three years have remained consistently high, with at least a dozen incidents each year.</p>
 
 <!-- Graphic container-->
 <div class="graphic-container">
-  <img class="star" src="star-blue.png" alt="blue star image">
-  <img class="star" src="star-red.png" alt="red star image">
-  <h2>Shootings by year</h2>
+  <h2 class="graphic-h2">Shootings by year</h2>
   <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
   <div id="shootingsByYearChart"></div>
   <em>Source: Data collected by The Washington Post</em>
@@ -116,13 +121,19 @@
   <!--city rural graphic-->
 
   <p>Almost all school shootings occur at public schools. According to the data collected by the Washington Post, only 5% of school shootings since 1999 have occured at a private school.</p>
+</div> <!--col-md-12-->
+</div> <!--row-->
 
+<div class="row">
+  <div class="col-md-12">
   <img class="star" src="star-blue.png" alt="blue star image">
   <img class="star" src="star-red.png" alt="red star image">
 <h2><a name="carnage">The carnage of school shootings</a></h2>
   <p>131 people have been killed in school shooting incidents in the United States since the Columbine massacre in 1999. The two deadliest years since have been 2012, when 26 people were killed at Sandy Hook Elementary School, and 2018, when 21 people were killed at Parkland High School. The chart below compared the number of people killed, the number of the people injured and the number of incidents by year since 1999.</p>
 
+
   <!--examining the carnage graphic-->
+
   <div class="graphic-container">
    <h2>Examining the carnage</h2>
    <p>How do the numbers of deaths, injuries and casualties break down by year?</p>
@@ -154,6 +165,11 @@
 
 <img class="stack-image" src="Witt-Florida-Rally.jpg" alt="photo of emma gonzales">
 
+</div> <!--col-md-12-->
+</div> <!--row-->
+
+<div class="row">
+  <div class="col-md-12">
   <img class="star" src="star-blue.png" alt="blue star image">
   <img class="star" src="star-red.png" alt="red star image">
   <h2><a name="profile">A profile</a> of the shooters</h2>
@@ -172,10 +188,18 @@
 
     <p>Dr. George S. Everly, Jr. of the Johns Hopkins School of Medicine says that shooters are often motivated by anger and revenge. They tend to be socially awkward, isolated and suffer from a lack of adult supervision. He also spoke of the effects of media contagion, or copycat killings, on school shooters.</p>
 
+  </div> <!--col-md-12-->
+  </div> <!--row-->
+
+  <div class="row">
+    <div class="col-md-12">
     <img class="star" src="star-blue.png" alt="blue star image">
     <img class="star" src="star-red.png" alt="red star image">
  <h2>The deadliest school shootings in America</h2>
    <p>The two most deadly shootings in modern American history occurred within the last few years. The Sandy Hook Elementary School shooting killed 26 people. The shooting at Marjory Stoneman Douglas High School killed 17. The deadliest school shooting in U.S. history occurred in 1927 in Bath Township, Michigan when a school board treasurer killed 38 elementary school students and six adults.</p>
+
+ </div> <!--col-md-12-->
+ </div> <!--row-->
 
    <!--javascript timeline and storymap-->
    <!--storymap-->
