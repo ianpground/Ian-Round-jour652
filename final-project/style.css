@@ -6,8 +6,8 @@ margin: 0 auto;
 padding: 10px;
 }
 
-.navbar-dark {
-  background-color: #0b1226;
+.bg-dark {
+  background-color: #0b1226 !important;
 }
 
 .hero-image {
