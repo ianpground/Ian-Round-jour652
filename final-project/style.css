@@ -32,6 +32,8 @@ padding: 10px;
 
 .cutline {
   padding-bottom: 10px;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
 .chatter {
@@ -119,14 +121,6 @@ a:visited {
 }
 
 
-.photo {
-  max-width: 500px;
-  margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  width: 100%;
-  margin: 0 auto;
-}
 
 .chatter{
   font-size: 1.5em;
@@ -136,12 +130,6 @@ a:visited {
 }
 
 
-
-.head {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 4em;
-}
 
 .byline {
   text-align: left;
